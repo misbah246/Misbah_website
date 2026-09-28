@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Misbah | Fashion & Jewelry</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#fffafc;color:#3d3037;line-height:1.6}
+header{background:#fff;padding:18px 7%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:10;box-shadow:0 2px 12px #00000012}
+.logo{font-size:28px;font-weight:700;color:#b34d78}
+nav a{margin-left:22px;text-decoration:none;color:#4b3a42;font-weight:600}
+.hero{padding:90px 7%;text-align:center;background:linear-gradient(135deg,#fff0f6,#fdf7f0)}
+.hero h1{font-size:48px;color:#a83f6b;margin-bottom:12px}
+.hero p{max-width:650px;margin:auto;font-size:18px}
+.btn{display:inline-block;margin-top:25px;padding:12px 25px;background:#b34d78;color:white;border-radius:25px;text-decoration:none}
+section{padding:65px 7%}
+.title{text-align:center;margin-bottom:35px}
+.title h2{font-size:32px;color:#a83f6b}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px}
+.card{background:white;border-radius:18px;padding:28px;text-align:center;box-shadow:0 5px 20px #0000000d}
+.card .icon{font-size:48px;margin-bottom:12px}
+.card h3{margin-bottom:8px;color:#6f3b51}
+.about{background:#fff0f6;text-align:center}
+.contact{text-align:center}
+footer{background:#3d3037;color:white;text-align:center;padding:22px}
+@media(max-width:650px){nav a{margin-left:8px;font-size:13px}.hero h1{font-size:38px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">Misbah</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#designs">Designs</a>
+    <a href="#jewelry">Jewelry</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <h1>Welcome to Misbah</h1>
+  <p>Simple, elegant and beautiful fashion & jewelry ideas — all in one place.</p>
+  <a class="btn" href="#designs">Explore Designs</a>
+</section>
+
+<section id="designs">
+  <div class="title"><h2>My Designs</h2><p>Elegant outfit ideas for every occasion.</p></div>
+  <div class="grid">
+    <div class="card"><div class="icon">👗</div><h3>Dress Designs</h3><p>Simple and graceful dress inspirations.</p></div>
+    <div class="card"><div class="icon">🌸</div><h3>Party Wear</h3><p>Stylish looks for special occasions.</p></div>
+    <div class="card"><div class="icon">✨</div><h3>New Ideas</h3><p>Fresh and unique fashion concepts.</p></div>
+  </div>
+</section>
+
+<section id="jewelry" class="about">
+  <div class="title"><h2>Jewelry Collection</h2><p>Descent and elegant jewelry inspiration.</p></div>
+  <div class="grid">
+    <div class="card"><div class="icon">💎</div><h3>Elegant Jewelry</h3><p>Delicate designs for a classy look.</p></div>
+    <div class="card"><div class="icon">📿</div><h3>Traditional</h3><p>Beautiful traditional style ideas.</p></div>
+    <div class="card"><div class="icon">💍</div><h3>Minimal</h3><p>Simple pieces for everyday styling.</p></div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="title"><h2>Contact Misbah</h2><p>Want to ask something or share an idea?</p></div>
+  <a class="btn" href="mailto:your@email.com">Email Me</a>
+</section>
+
+<footer>© 2026 Misbah. All Rights Reserved.</footer>
+</body>
+</html>
